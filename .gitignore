@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+tsconfig.tsbuildinfo
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+
+# Convex local artifacts
+.convex/
+
+# OS / editor
+.DS_Store
+Thumbs.db
