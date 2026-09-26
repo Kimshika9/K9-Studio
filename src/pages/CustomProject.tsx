@@ -4,7 +4,7 @@ import { useMutation } from "convex/react";
 import { toast } from "sonner";
 import { Loader2, Send, Lightbulb } from "lucide-react";
 import { useConvexAuth } from "convex/react";
-import { api } from "@convex/_generated/api";
+import { api } from "../../convex/_generated/api";
 import { Reveal } from "../components/Reveal";
 import { useTelegramLink } from "../components/TelegramCTA";
 

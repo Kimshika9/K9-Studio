@@ -1,6 +1,6 @@
 import { useQuery } from "convex/react";
 import { Send } from "lucide-react";
-import { api } from "@convex/_generated/api";
+import { api } from "../../convex/_generated/api";
 
 export function useTelegramLink(): string {
   const settings = useQuery(api.catalogReads.getPublicSettings) ?? {};

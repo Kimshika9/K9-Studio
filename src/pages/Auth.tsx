@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { useConvexAuth } from "convex/react";
 import { useAuthActions } from "@convex-dev/auth/react";
-import { api } from "@convex/_generated/api";
+import { api } from "../../convex/_generated/api";
 import { Moon, Sun, Loader2, Mail, Lock, User2 } from "lucide-react";
 import { K9Mark } from "../brand/K9Mark";
 import { useTheme } from "../theme/ThemeProvider";

@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { Menu, X, Sun, Moon, User2, Sparkles, ArrowUpRight } from "lucide-react";
 import { useConvexAuth } from "convex/react";
 import { useQuery } from "convex/react";
-import { api } from "@convex/_generated/api";
+import { api } from "../../convex/_generated/api";
 import { useTheme } from "../theme/ThemeProvider";
 import { K9Wordmark } from "../brand/K9Mark";
 

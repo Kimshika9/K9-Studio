@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { useMutation, useQuery } from "convex/react";
 import { toast } from "sonner";
 import { Zap, Star, MessageCircle, Loader2, Lock } from "lucide-react";
-import { api } from "@convex/_generated/api";
-import type { Doc } from "@convex/_generated/dataModel";
+import { api } from "../../convex/_generated/api";
+import type { Doc } from "../../convex/_generated/dataModel";
 import { PriceTag } from "./PriceTag";
 import { formatMmk, formatUsd } from "../lib/utils";
 

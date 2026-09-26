@@ -4,7 +4,7 @@ import { toast } from "sonner";
 import {
   Star, RefreshCcw, ArrowUpRight, XCircle, Copy, Wallet,
 } from "lucide-react";
-import { api } from "@convex/_generated/api";
+import { api } from "../../convex/_generated/api";
 import { formatMmk, formatUsd } from "../lib/utils";
 import { K9Mark } from "../brand/K9Mark";
 

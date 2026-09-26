@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { useQuery } from "convex/react";
 import { ArrowLeft, Download, ListChecks, Clock } from "lucide-react";
-import { api } from "@convex/_generated/api";
+import { api } from "../../convex/_generated/api";
 import { PurchasePanel } from "../components/PurchasePanel";
 import { Reveal } from "../components/Reveal";
 import { Badge } from "../components/Badge";

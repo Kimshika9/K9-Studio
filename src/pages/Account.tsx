@@ -7,7 +7,7 @@ import {
   ExternalLink, Send, Loader2, Copy, XCircle,
 } from "lucide-react";
 import { useConvexAuth, useAuthActions } from "@convex-dev/auth/react";
-import { api } from "@convex/_generated/api";
+import { api } from "../../convex/_generated/api";
 import { K9Mark } from "../brand/K9Mark";
 import { Badge } from "../components/Badge";
 import { formatMmk, formatUsd } from "../lib/utils";

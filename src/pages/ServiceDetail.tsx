@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useQuery } from "convex/react";
 import { ArrowLeft, Clock, FileText, ListChecks, Users } from "lucide-react";
-import { api } from "@convex/_generated/api";
+import { api } from "../../convex/_generated/api";
 import { TierSwitcher, TierFeatures, type Tier } from "../components/TierSwitcher";
 import { PurchasePanel } from "../components/PurchasePanel";
 import { Reveal } from "../components/Reveal";

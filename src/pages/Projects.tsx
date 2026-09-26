@@ -2,7 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import { PageHead, Reveal } from "../components/Reveal";
 import { Badge } from "../components/Badge";
 import { ArrowRight, CheckCircle2, Target, Puzzle, Rocket } from "lucide-react";
-import { PROJECTS_SEED } from "@convex/seedData";
+import { PROJECTS_SEED } from "../../convex/seedData";
 
 export default function Projects() {
   return (

@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 import { Navigate, useLocation } from "react-router-dom";
 import { useConvexAuth } from "convex/react";
 import { useQuery } from "convex/react";
-import { api } from "@convex/_generated/api";
+import { api } from "../../convex/_generated/api";
 
 /**
  * Admin area protection: requires sign-in AND membership in K9_ADMIN_EMAILS

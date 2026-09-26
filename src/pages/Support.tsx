@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useMutation } from "convex/react";
 import { toast } from "sonner";
 import { Send, Loader2, MessagesSquare, Package, CreditCard, Bug } from "lucide-react";
-import { api } from "@convex/_generated/api";
+import { api } from "../../convex/_generated/api";
 import { PageHead, Reveal } from "../components/Reveal";
 import { TelegramCTA, useTelegramLink } from "../components/TelegramCTA";
 

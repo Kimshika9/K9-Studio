@@ -3,7 +3,7 @@ import { PageHead, Reveal } from "../components/Reveal";
 import { Badge } from "../components/Badge";
 import { Star, ArrowRight, Wallet, Globe2, RefreshCcw } from "lucide-react";
 import { useQuery } from "convex/react";
-import { api } from "@convex/_generated/api";
+import { api } from "../../convex/_generated/api";
 import { formatMmk } from "../lib/utils";
 
 const PACKAGES = [
