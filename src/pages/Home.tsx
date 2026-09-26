@@ -15,7 +15,7 @@ import {
   MessagesSquare,
 } from "lucide-react";
 import { useQuery } from "convex/react";
-import { api } from "@convex/_generated/api";
+import { api } from "../../convex/_generated/api";
 import { CosmicCanvas } from "../components/CosmicCanvas";
 import { CatalogCard } from "../components/CatalogCard";
 import { Reveal } from "../components/Reveal";

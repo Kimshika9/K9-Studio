@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "motion/react";
 import { Globe, Bot, Sparkles, Wand2, Camera, Film, Brain, Code2, Zap, Layout, ArrowUpRight, type LucideIcon } from "lucide-react";
-import type { Doc } from "@convex/_generated/dataModel";
+import type { Doc } from "../../convex/_generated/dataModel";
 import { PriceTag } from "./PriceTag";
 import { Badge } from "./Badge";
 
